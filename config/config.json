@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "enterprise-assist-chat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/enterpriseAssistChat/EnterpriseAssistChatWebPart.js",
+          "manifest": "./src/webparts/enterpriseAssistChat/EnterpriseAssistChatWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {}
+}

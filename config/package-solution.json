@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-chatbot-client-side-solution",
+    "id": "591be8a9-b475-4299-a0cd-cf11602b9cc4",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-chatbot description"
+      },
+      "longDescription": {
+        "default": "spfx-chatbot description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-chatbot Feature",
+        "description": "The feature that activates elements of the spfx-chatbot solution.",
+        "id": "9731a7b3-62e7-48dc-a808-dc48051fc15d",
+        "version": "1.0.0.1"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "EnterpriseAssistAuth",
+        "scope": "copilot.studio.scope"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-chatbot.sppkg"
+  }
+}
